@@ -17,7 +17,7 @@ def get_info():
     utc_time = datetime.datetime.now(pytz.utc).isoformat()
 
     # GitHub URL of the file being run
-    github_file_url = "https://github.com/username/repo/blob/main/file_name.ext"
+    github_file_url = "https://github.com/davidemusi/Slack-Info-API/blob/main/app.py"
 
     # GitHub URL of the full source code
     github_repo_url = "https://github.com/davidemusi/Slack-Info-API.git"
