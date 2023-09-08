@@ -13,8 +13,8 @@ def get_info():
     # Get the current day of the week
     current_day = datetime.datetime.now(pytz.utc).strftime('%A')
 
-    # Get the current UTC time with a +/-2 minute window
-    utc_time = datetime.datetime.now(pytz.utc).isoformat()
+    # Get the current UTC time with a +/-2 minute window and format it
+    utc_time = datetime.datetime.now(pytz.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # GitHub URL of the file being run
     github_file_url = "https://github.com/davidemusi/Slack-Info-API/blob/main/app.py"
